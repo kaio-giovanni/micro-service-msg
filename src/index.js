@@ -18,7 +18,7 @@ bot.command('author', (ctx) => ctx.reply(answers.author));
 
 bot.command('quit', (ctx) => {
   // Explicit usage
-  ctx.telegram.leaveChat(ctx.message.chat.id)
+  ctx.telegram.leaveChat(ctx.message.chat.id);
 
   // Using context shortcut
   ctx.leaveChat();
