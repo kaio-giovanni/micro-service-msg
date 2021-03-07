@@ -18,7 +18,10 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
+    "@sentry/node": "^6.2.1",
+    "bunyan": "^1.8.15",
     "dotenv": "^8.2.0",
+    "mustache": "^4.1.0",
     "telegraf": "^3.38.0"
   }
 }

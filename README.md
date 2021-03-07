@@ -6,12 +6,8 @@
 
 - Create a chatbot (described [here](https://core.telegram.org/bots#:~:text=for%20existing%20ones.-,Creating%20a%20new%20bot,mentions%20and%20t.me%20links.))
 - Configure your access key for the bot in the `.env` file
+- Configure yout access key for the Sentry
 - run the `yarn start` command
-- Open the telegram and enter the commands for your bot
-  - `/start` - displays a welcome message
-  - `/help` - displays a help message
-  - `hi` - displays a hello message
-  - `/author` - displays the bot author
 
 ### Author
 
