@@ -4,10 +4,10 @@
 
 ### Technologies used
 
-- ![RABBITMQ](https://www.rabbitmq.com/) using ![amqplib](https://www.npmjs.com/package/amqplib)
-- ![SENTRY](https://sentry.io/welcome/)
-- ![MUSTACHE](https://mustache.github.io/)
-- ![TELEGRAF](https://telegraf.js.org/)
+- [RABBITMQ](https://www.rabbitmq.com/) using [amqplib](https://www.npmjs.com/package/amqplib)
+- [SENTRY](https://sentry.io/welcome/)
+- [MUSTACHE](https://mustache.github.io/)
+- [TELEGRAF](https://telegraf.js.org/)
 
 ### Setup
 
