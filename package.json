@@ -1,0 +1,29 @@
+{
+  "name": "microsservice-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "@kaio-giovanni",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.5",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "@sentry/node": "^6.2.1",
+    "amqplib": "^0.7.0",
+    "axios": "^0.21.1",
+    "bunyan": "^1.8.15",
+    "dotenv": "^8.2.0",
+    "mustache": "^4.1.0",
+    "telegraf": "^3.38.0"
+  }
+}
