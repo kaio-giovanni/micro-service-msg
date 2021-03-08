@@ -1,4 +1,4 @@
-const { send } = require('../sendMessage');
+const { send } = require('../telegram/sendMessage');
 const logger = require('../logger');
 
 const sendSingle = async ({ chatId, message, template }) => {

@@ -1,11 +1,11 @@
 {
-  "name": "mybot-telegram",
+  "name": "microsservice-message",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
-  "author": "Kaio giovanni",
+  "author": "@kaio-giovanni",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@sentry/node": "^6.2.1",
+    "amqplib": "^0.7.0",
+    "axios": "^0.21.1",
     "bunyan": "^1.8.15",
     "dotenv": "^8.2.0",
     "mustache": "^4.1.0",

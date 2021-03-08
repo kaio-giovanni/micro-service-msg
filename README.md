@@ -1,13 +1,21 @@
-## My Bot Telegram
+## Microservice of messages
 
-### Creating a chatbot for the telegram
+- Creation of a microservice of messages
 
-### Tutorial
+### Technologies used
 
-- Create a chatbot (described [here](https://core.telegram.org/bots#:~:text=for%20existing%20ones.-,Creating%20a%20new%20bot,mentions%20and%20t.me%20links.))
-- Configure your access key for the bot in the `.env` file
-- Configure yout access key for the Sentry
-- run the `yarn start` command
+- ![RABBITMQ](https://www.rabbitmq.com/) using ![amqplib](https://www.npmjs.com/package/amqplib)
+- ![SENTRY](https://sentry.io/welcome/)
+- ![MUSTACHE](https://mustache.github.io/)
+- ![TELEGRAF](https://telegraf.js.org/)
+
+### Setup
+
+- Create the .env file and insert the environment variables below:
+  - TELEGRAM_BOT_TOKEN
+  - SENTRY_DSN
+  - RABBITMQ_URL
+  - SERVICE_URL
 
 ### Author
 

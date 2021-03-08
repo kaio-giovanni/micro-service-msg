@@ -1,6 +1,6 @@
 const { getBot } = require('./getBot');
-const { makeMessageByTemplate } = require('./utils/templateUtils');
-const logger = require('./logger');
+const { makeMessageByTemplate } = require('../utils/templateUtils');
+const logger = require('../logger');
 
 const bot = getBot();
 

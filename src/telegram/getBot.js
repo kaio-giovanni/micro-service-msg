@@ -1,5 +1,5 @@
 const Telegraf = require('telegraf');
-const { telegramBotToken } = require('./dotEnv');
+const { telegramBotToken } = require('../dotEnv');
 
 let bot = null;
 

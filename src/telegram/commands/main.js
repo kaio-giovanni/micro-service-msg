@@ -1,6 +1,5 @@
 const { getBot } = require('../getBot');
-const { send } = require('../controller/telegramController');
-const logger = require('../logger');
+const { registerUser } = require('../../service/users');
 
 const bot = getBot();
 
@@ -14,4 +13,15 @@ bot.command('/help', async (ctx) => {
     ({ command, description }) => `/${command} - ${description}\n`,
   );
   await ctx.reply(arrayCommands.join('\n'));
+});
+
+bot.command('/register', (ctx) => {
+  const chatId = ctx.chat.id;
+  const userName = ctx.message.from.first_name;
+  const result = registerUser({ userName, chatId });
+  if (result) {
+    ctx.reply('User successfully registered');
+  } else {
+    ctx.reply('An error occurred');
+  }
 });
